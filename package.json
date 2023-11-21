@@ -1,0 +1,49 @@
+{
+  "name": "next-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "run dev",
+    "vercel-build": "echo world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragmer09toske/Next-Backend.git"
+  },
+  "author": "Ray.mond.09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragmer09toske/Next-Backend/issues"
+  },
+  "homepage": "https://github.com/ragmer09toske/Next-Backend#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^7.1.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "braintree": "^3.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "firebase-functions": "^4.4.1",
+    "formidable-serverless": "^1.1.1",
+    "fuse.js": "^6.6.2",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.4.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
